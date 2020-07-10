@@ -70,9 +70,9 @@ class Main {
     Main main = new Main();
 
     // Input JSON files to be deserialized
-    File trades = new File(Main.class.getResource("trades.json").getFile());
-    File tradesFancy = new File(Main.class.getResource("tradesFancy.json").getFile());
-    File tradesFancier = new File(Main.class.getResource("tradesFancier.json").getFile());
+    File trades = new File("src/main/java/com/example/jackson/trades.json");
+    File tradesFancy = new File("src/main/java/com/example/jackson/tradesFancy.json");
+    File tradesFancier = new File("src/main/java/com/example/jackson/tradesFancier.json");
 
     // Serialized output JSON files
     File impTrades = new File("src/main/java/com/example/jackson/impTrades.json");
