@@ -86,9 +86,9 @@ class Main {
     /* use json input files as said in instructions
     /* Files - trades/tradesFancy/tradesFancier
     */
-    // main.parseJsonJacksomatically(tradesFancier, outputFile);
+    // main.parseJsonJacksomatically(trades, outputFile);
 
-    // uncomment this to 
+    // uncomment this to execute writeImportantPurchasesToFile()
     // main.writeImportantPurchasesToFile(trades, impTrades);
 
     // Uncomment in Milestone 4
