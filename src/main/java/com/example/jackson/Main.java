@@ -92,7 +92,7 @@ class Main {
     // main.writeImportantPurchasesToFile(trades, impTrades);
 
     // Uncomment in Milestone 4
-    // main.parseJsonJacksomaticallyPrivate(tradesFancier, outputFile);
+    //main.parseJsonJacksomaticallyPrivate(trades, outputFile);
 
     System.out.println("Running completed");
   }
