@@ -12,10 +12,55 @@ public class TradePrivate {
   public TradePrivate() {
   }
 
-  public TradePrivate(String symbol, int quantity, String purchaseDate) {
+  public String getSymbol() {
+
+    return symbol;
+
+}
+
+
+public void setSymbol(String symbol) {
+
     this.symbol = symbol;
-    this.quantity = quantity;
-    this.purchaseDate = purchaseDate;
+
+}
+
+public int getQuantity() {
+
+  return quantity;
+
+}
+
+
+public void setQuantity(int quantity) {
+
+  this.quantity = quantity;
+
+}
+
+public String getPurchaseDate() {
+
+  return purchaseDate;
+
+}
+
+
+public void setPurchaseDate(String purchaseDate) {
+
+  this.purchaseDate = purchaseDate;
+
+}
+
+  public TradePrivate(String symbol, int quantity, String purchaseDate) {
+    setSymbol(symbol);
+    setQuantity(quantity);
+    setPurchaseDate(purchaseDate);
+
+
+    this.symbol = getSymbol();
+    this.quantity = getQuantity();
+    this.purchaseDate = getPurchaseDate();
+    
   }
   
   
